@@ -1,0 +1,28 @@
+name: expense_tracker
+description: Spendly – Smart expense tracker with Lottie animations.
+publish_to: 'none'
+version: 0.1.0+1
+environment:
+  sdk: '>=2.19.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.2.1
+  fl_chart: ^0.65.0
+  lottie: ^3.1.2          # Lottie animation player
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # ── Asset folders ──────────────────────────────────────────────────────────
+  assets:
+    - assets/lottie/        # .json / .lottie animation files go here
+    - assets/images/        # static images if needed
